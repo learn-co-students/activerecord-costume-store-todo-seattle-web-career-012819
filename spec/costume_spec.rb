@@ -7,6 +7,8 @@ describe "Costume" do
       name: "Unisex Adult Hot Dog Costume"
     )
     expect(Costume.find_by(name: "Unisex Adult Hot Dog Costume")).to eq(hot_dog)
+
+    #binding.pry
   end
 
   it "has a price" do
